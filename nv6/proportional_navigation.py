@@ -11,9 +11,6 @@ DATA_DIR = ""
 # Lấy toàn bộ danh sách tệp
 FILES = sorted(glob.glob(os.path.join(DATA_DIR, "*.csv")))[::]
 
-# (Ghi chú: Nếu chỉ muốn kiểm tra 1 tệp cụ thể, bạn có thể bỏ chú thích dòng dưới)
-# FILES = ["/home/lmduc2704/Documents/Toan_mo_hinh/gpt_data/data_A_251_N3.csv"]
-
 # --- Tham số Mô phỏng ---
 VB_MAX_SPEED = 100.0          # Vận tốc tối đa của tên lửa/người đuổi (B)
 SMOOTH_K = 3                  # Số lượng điểm dữ liệu dùng để hồi quy làm mịn vận tốc
